@@ -4,10 +4,10 @@
 
 #### VBA scripting to analyze stock market data
 
-#### Steps
+#### Project Description
 
-* Created a script that will read stocks form excel workboox with each sheet containg one year's data and output the following information.
-
+* Created a VBA excel macro that reads each worksheet and formats the date column and also sorts in order of Ticker and Date.
+* Created a VBA excel macro that reads stocks form excel workboox with each sheet containing one year's data and output the following information.
   * The ticker symbol.
   * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
   * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
