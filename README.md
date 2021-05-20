@@ -1,3 +1,4 @@
+
 # VBA-challenge
 
 #### VBA scripting to analyze stock market data
@@ -12,7 +13,5 @@
   * The total stock volume.
   * 
 * Conditional formatting has been applied that highlights positive change in green and negative change in red.
-* 
+
 * The result looks as below.
-
-
