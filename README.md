@@ -1,4 +1,5 @@
 
+
 # VBA-challenge
 
 #### VBA scripting to analyze stock market data
@@ -15,3 +16,4 @@
 * Conditional formatting has been applied that highlights positive change in green and negative change in red.
 
 * The result looks as below.
+![Stock_Report_2014_C](https://user-images.githubusercontent.com/81383838/119061370-d6371100-b999-11eb-8df3-9e005be59635.jpg)
