@@ -1,4 +1,3 @@
-
 #  VBA scripting to analyze stock market data
 #### Project Description
 
@@ -41,7 +40,7 @@ This function loops through the the worksheet, reads data from each row and gene
 
 #### Results
 #### 2014
-![Stock_Report2014](https://user-images.githubusercontent.com/81383838/119071689-e22dcd80-b9af-11eb-8182-6806b0fbdb2f.jpg)
+![Stock_Report_2014](https://user-images.githubusercontent.com/81383838/119143295-11265c80-ba0d-11eb-8a2f-2ba9121f3e1c.jpg)
 #### 2015
 ![Stock_Report2015](https://user-images.githubusercontent.com/81383838/119071694-e5c15480-b9af-11eb-96fd-7c96c1512f5a.jpg)
 #### 2016
