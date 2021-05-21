@@ -26,7 +26,7 @@ This function formats the 'date' field to 'MM/DD/YYYY' and sorts the worksheet o
 This function loops through the the worksheet, reads data from each row and generates summary table from the data.
  
 #### Execution:
-  * The code is in the file "WS_Stock_Analysis_And_Report_Functions.vbs" which can be located in files section.
+  * The code is in the file ![WS_Stock_Analysis_And_Report_Functions.vbs](https://github.com/V-MalM/VBA-challenge/blob/main/WS_Stock_Analysis_And_Report_Functions.vbs) which can be located in files section.
   * Add the code to excel workbook by creating a module or by selecting 'Thisworkbook'.
   * Save and you will able to run the macro "Stock_Report_Main()".
   * The excel raw data files are also loacted in the same folder.
