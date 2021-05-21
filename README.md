@@ -29,7 +29,6 @@ This function loops through the the worksheet, reads data from each row and gene
   * The code is in the file ![WS_Stock_Analysis_And_Report_Functions.vbs](https://github.com/V-MalM/VBA-challenge/blob/main/WS_Stock_Analysis_And_Report_Functions.vbs) which can be located in files section.
   * Add the code to excel workbook by creating a module or by selecting 'Thisworkbook'.
   * Save and you will able to run the macro "Stock_Report_Main()".
-  * The excel raw data files are also loacted in the same folder.
      * I tested the macro on alphabetical_testing.xlsm.
      * The macro on this file executed in under ONE minute.
      * You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
