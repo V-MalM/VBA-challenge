@@ -14,6 +14,12 @@
    * Greatest total volume.
 
 ![Stock_Report_14](https://user-images.githubusercontent.com/81383838/119068685-4d74a100-b9aa-11eb-8423-27c711b66c27.jpg)
+
+#### Resources
+   * Folder Multi_Year_Stock_Data_Screen_Shots : Folder contaning a screen shot for each year of results on the Multi Year Stock Data
+   * VBS file WS_Stock_Analysis_And_Report_Functions.vbs 
+      * VBA Scripts
+
 #### Sequence of execution
 ##### The main Subroutine(macro) calls two functions Format_Date_And_Sort and Generate_Summary
 
