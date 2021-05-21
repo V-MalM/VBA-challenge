@@ -36,13 +36,13 @@ The code is in the file WS_Stock_Analysis_And_Report_Functions.vbs which can be 
 The excel raw data files are also loacted in the same folder.  
 I tested the macro on the sheet alphabetical_testing.xlsx while testing the code. This data set is smaller and will allow faster testing. 
 The macro on this file excecuted in under a minute.
-You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
+You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs. Please copy all the lines of the code that includes the main subroutine and the two functions that it calls.
  
 I have also tested the same macro on the much larger data file and it executed in just under 6 mins. Most of the execution time is taken for date formatting. Once that has been formatted, the execution to generate the report is less than 2 minutes.
-You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
+You can try this by downloading the raw data file here and using the code from WS_Stock_Analysis_And_Report_Functions.vbs. to make the excution faster, i have already run the macro to format the date and sort the worksheet. Please copy all the lines of the code that includes the main subroutine and the two functions that it calls.
  
-Steps to create a module for the excel file
+But you would like to try it on a raw file for fun ,here is the raw data file. please follow the same instructions and copy all of the code from WS_Stock_Analysis_And_Report_Functions.vbs.
  
- 
+Once you have added the code to excel workbooks as a module or just as a macro for the work book, you will able to run the macro Stock_Report_Main().
 
-
+## Important: Add the vbs code to the work book or to the module not individual worksheets.
