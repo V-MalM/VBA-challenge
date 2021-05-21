@@ -35,7 +35,7 @@ This function loops through the the worksheet, reads data from each row and gene
      * You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
      * Please copy all the lines of  the code that includes the main subroutine and the two functions that it calls.
 
- * I have also tested the same macro on the much larger data file, and it executed in just under 6 mins. 
+ * I have also tested the same macro on the much larger data file, and it executed in 8 mins. 
     * Most of the execution time is taken for date formatting. Once that has been formatted, the processing to generate the report is less than 2 minutes.
     * You can try this by downloading the data file here and using the code from WS_Stock_Analysis_And_Report_Functions.vbs. 
     * to make the excution faster, i have already run the macro to format date and sort the worksheet. 
