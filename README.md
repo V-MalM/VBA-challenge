@@ -2,14 +2,17 @@
 #  VBA scripting to analyze stock market data
 #### Project Description
 
-* VBA Excel macro that reads stocks from the workboox with each worksheet containing one year's data and output the following information:
+* VBA Excel macro that reads excel workbook containing stock data, (each worksheet containing one year's data) and outputs the following information:
   * The ticker symbol.
   * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
   * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
   * The total stock volume.
-  
+    
 * Conditional formatting that highlights positive change in green and negative change in red.
-* It also creates an additional summary table with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume".
+* It also creates an additional summary table with the 
+   * Greatest % increase
+   * Greatest % decrease 
+   * Greatest total volume.
 
 ![Stock_Report_14](https://user-images.githubusercontent.com/81383838/119068685-4d74a100-b9aa-11eb-8423-27c711b66c27.jpg)
 #### Sequence of execution
@@ -34,7 +37,7 @@ This function loops through the the worksheet, reads data from each row and gene
 
  * I have also tested the same macro on the "Multiple_year_stock_data.xlsm", and it executed in 8 mins. 
     * Most of the execution time is taken for date formatting. Once that has been formatted, the processing to generate the report is less than 2 minutes.
-    * I had to Remember "Patience is Golden !"
+    * I agree "Patience is Golden !"
 
 #### Results
 #### 2014
