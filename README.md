@@ -20,10 +20,11 @@
 #### Sequence of execution
 ##### The main Subroutine(macro) calls two functions Format_Date_And_Sort and Generate_Summary
 
- Sub Stock_Report_Main()
- Call Format_Date_And_Sort
- Call Generate_Summary
- End Sub
+Sub Stock_Report_Main()
+Call Format_Date_And_Sort
+Call Generate_Summary
+End Sub
+
 
 Format_Date_And_Sort
 This functions formats the <date> field to 'date MM/DD/YYYY' and sorts the worskeet on <ticker> and <date>
@@ -44,4 +45,4 @@ But you would like to try it on a raw file for fun, here is the raw data file. p
  
 Once you have added the code to excel workbooks as a module or just as a macro for the work book, you will able to run the macro Stock_Report_Main().
 
-## Important: Add the vbs code to the workbook or to the module not individual worksheets.
+#### Important: Add the vbs code to the workbook or to the module not individual worksheets.
