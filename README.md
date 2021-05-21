@@ -46,8 +46,6 @@ This function loops through the the worksheet, reads data from each row and gene
 #### 2016
 ![Stock_Report2016](https://user-images.githubusercontent.com/81383838/119071702-ea860880-b9af-11eb-90f1-34dea540b087.jpg)
 
-
-###### Once you have added the code to excel workbooks as a module or just as a macro for the work book, you will able to run the macro Stock_Report_Main().
 #### Important: Add the vbs code to the workbook or to the module not individual worksheets.
 ###### eRRORS !!!! What ERRORS ????
 * REST ASSURED, THEY HAVE BEEN HANDLED. Just Follow these detailed instructions ....
