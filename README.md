@@ -18,12 +18,12 @@
 ![Stock_Report_2014_C](https://user-images.githubusercontent.com/81383838/119061370-d6371100-b999-11eb-8df3-9e005be59635.jpg)
 
 #### Sequence of execution
-The main Subroutine(macro) calls two functions Format_Date_And_Sort and Generate_Summary
+##### The main Subroutine(macro) calls two functions Format_Date_And_Sort and Generate_Summary
 
-Sub Stock_Report_Main()
-Call Format_Date_And_Sort
-Call Generate_Summary
-End Sub
+ Sub Stock_Report_Main()
+ Call Format_Date_And_Sort
+ Call Generate_Summary
+ End Sub
 
 Format_Date_And_Sort
 This functions formats the <date> field to 'date MM/DD/YYYY' and sorts the worskeet on <ticker> and <date>
