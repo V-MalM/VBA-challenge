@@ -32,7 +32,7 @@ This function loops through the the worksheet, reads data from each row and gene
   * Add the code to excel workbook by creating a module or by selecting 'Thisworkbook'.
   * Save and you will able to run the macro "Stock_Report_Main()".
      * I tested the macro on "alphabetical_testing.xlsm".
-     * It took less than 1 minute to execute and show the results.
+     * It took under 2 minutes to execute and show the results.
 
  * I have also tested the same macro on the "Multiple_year_stock_data.xlsm", and it executed in 8 mins. 
     * Most of the execution time is taken for date formatting. Once that has been formatted, the processing to generate the report is less than 2 minutes.
