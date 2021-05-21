@@ -1,5 +1,4 @@
 
-
 # VBA-challenge
 
 #### VBA scripting to analyze stock market data
@@ -45,4 +44,4 @@ But you would like to try it on a raw file for fun ,here is the raw data file. p
  
 Once you have added the code to excel workbooks as a module or just as a macro for the work book, you will able to run the macro Stock_Report_Main().
 
-## Important: Add the vbs code to the work book or to the module not individual worksheets.
+## Important: Add the vbs code to the work book or to the module not individual worksheets
