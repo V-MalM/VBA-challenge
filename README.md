@@ -29,21 +29,11 @@ This function loops through the the worksheet, reads data from each row and gene
   * The code is in the file ![WS_Stock_Analysis_And_Report_Functions.vbs](https://github.com/V-MalM/VBA-challenge/blob/main/WS_Stock_Analysis_And_Report_Functions.vbs) which can be located in files section.
   * Add the code to excel workbook by creating a module or by selecting 'Thisworkbook'.
   * Save and you will able to run the macro "Stock_Report_Main()".
-     * I tested the macro on alphabetical_testing.xlsm.
-     * The macro on this file executed in under ONE minute.
-     * You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
-     * Please copy all the lines of  the code that includes the main subroutine and the two functions that it calls.
+     * I tested the macro on ![alphabetical_testing.xlsm](https://github.com/V-MalM/VBA-challenge/blob/main/alphabetical_testing.xlsm).
 
- * I have also tested the same macro on the much larger data file, and it executed in 8 mins. 
+ * I have also tested the same macro on the "Multiple_year_stock_data.xlsm", and it executed in 8 mins. 
     * Most of the execution time is taken for date formatting. Once that has been formatted, the processing to generate the report is less than 2 minutes.
-    * You can try this by downloading the data file here and using the code from WS_Stock_Analysis_And_Report_Functions.vbs. 
-    * to make the excution faster, i have already run the macro to format date and sort the worksheet. 
-    * Please copy all the lines of the code that includes the main subroutine and the two functions that it calls.
- 
- * If you would like to try it on a raw file for fun, here is the data file. 
-    * The execution time is up to 6 mins.
-    * Follow the same instructions as above and copy all of the code from WS_Stock_Analysis_And_Report_Functions.vbs.
-    * Be patient while the file is being processed. Remember "Patience is Golden !"
+    * Remember "Patience is Golden !"
 
 #### Results
 #### 2014
