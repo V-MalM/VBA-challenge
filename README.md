@@ -20,29 +20,37 @@
 #### Sequence of execution
 ##### The main Subroutine(macro) calls two functions Format_Date_And_Sort and Generate_Summary
 
-Sub Stock_Report_Main()
-Call Format_Date_And_Sort
-Call Generate_Summary
+Sub Stock_Report_Main()\
+Call Format_Date_And_Sort\
+Call Generate_Summary\
 End Sub
 
 
-Format_Date_And_Sort
-This functions formats the <date> field to 'date MM/DD/YYYY' and sorts the worskeet on <ticker> and <date>
+###### Format_Date_And_Sort:
+This function formats the <date> field to 'date MM/DD/YYYY' and sorts the worksheet on 'ticker' and 'date' fields. 
+###### Generate_Summary :
+This function loops through the the worksheet, reads data from each row and generates summary table from the data.
  
-Generate_Summary : 
-This function reads the worksheet and generates the summary table
+#### Execution:
+  * The code is in the file "WS_Stock_Analysis_And_Report_Functions.vbs" which can be located in files section.
+     * The excel raw data files are also loacted in the same folder.
+     * I tested the macro on alphabetical_testing.xlsm.
+     * The macro on this file executed in under a minute.
+     * You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
+     * Please copy all the lines of  the code that includes the main subroutine and the two functions that it calls.
 
-The code is in the file WS_Stock_Analysis_And_Report_Functions.vbs which can be located in files section.
-The excel raw data files are also loacted in the same folder.  
-I tested the macro on the sheet alphabetical_testing.xlsx while testing the code. This data set is smaller and will allow faster testing. 
-The macro on this file executed in under a minute.
-You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs. Please copy all the lines of the code that includes the main subroutine and the two functions that it calls.
  
-I have also tested the same macro on the much larger data file, and it executed in just under 6 mins. Most of the execution time is taken for date formatting. Once that has been formatted, the execution to generate the report is less than 2 minutes.
-You can try this by downloading the raw data file here and using the code from WS_Stock_Analysis_And_Report_Functions.vbs. to make the excution faster, i have already run the macro to format the date and sort the worksheet. Please copy all the lines of the code that includes the main subroutine and the two functions that it calls.
+ * I have also tested the same macro on the much larger data file, and it executed in just under 6 mins. 
+    * Most of the execution time is taken for date formatting. Once that has been formatted, the processing to generate the report is less than 2 minutes.
+    * You can try this by downloading the data file here and using the code from WS_Stock_Analysis_And_Report_Functions.vbs. 
+    * to make the excution faster, i have already run the macro to format date and sort the worksheet. 
+    * Please copy all the lines of the code that includes the main subroutine and the two functions that it calls.
  
-But you would like to try it on a raw file for fun, here is the raw data file. please follow the same instructions and copy all of the code from WS_Stock_Analysis_And_Report_Functions.vbs.
+ * If you would like to try it on a raw file for fun, here is the data file. 
+    * The execution time is up to 6 mins.
+    * Follow the same instructions as above and copy all of the code from WS_Stock_Analysis_And_Report_Functions.vbs.
+    * Be patient while the file is being processed. Remember "Patience is Golden !"
  
-Once you have added the code to excel workbooks as a module or just as a macro for the work book, you will able to run the macro Stock_Report_Main().
+###### Once you have added the code to excel workbooks as a module or just as a macro for the work book, you will able to run the macro Stock_Report_Main().
 
 #### Important: Add the vbs code to the workbook or to the module not individual worksheets.
