@@ -33,8 +33,16 @@ Generate_Summary :
 This function reads the worksheet and generates the summary table
 
 The code is in the file WS_Stock_Analysis_And_Report_Functions.vbs which can be located in files section.
-The excel raw data files are also loacted in the folder.  
-Use the sheet alphabetical_testing.xlsx while testing your code. This data set is smaller and will allow faster testing. 
-The macro on this file excecutes in undweer a minute .
+The excel raw data files are also loacted in the same folder.  
+I tested the macro on the sheet alphabetical_testing.xlsx while testing the code. This data set is smaller and will allow faster testing. 
+The macro on this file excecuted in under a minute.
+You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
+ 
+I have also tested the same macro on the much larger data file and it executed in just under 6 mins. Most of the execution time is taken for date formatting. Once that has been formatted, the execution to generate the report is less than 2 minutes.
+You can try this by downloading the raw data file here and creating a module using the code from WS_Stock_Analysis_And_Report_Functions.vbs.
+ 
+Steps to create a module for the excel file
+ 
+ 
 
 
