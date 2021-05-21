@@ -35,8 +35,8 @@ This function loops through the the worksheet, reads data from each row and gene
      * It took under 2 minutes to execute and show the results.
 
  * I have also tested the same macro on the "Multiple_year_stock_data.xlsm", and it executed in 8 mins. 
-    * Most of the execution time is taken for date formatting. Once that has been formatted, the processing to generate the report is less than 2 minutes.
-    * I agree "Patience is Golden !"
+    * Most of the execution time was for date formatting. Once that has been formatted, the processing to generate the report was less than 2 minutes.
+    * I agree now that "Patience is Golden !"
 
 #### Results
 #### 2014
