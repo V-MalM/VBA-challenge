@@ -31,7 +31,7 @@ This function loops through the the worksheet, reads data from each row and gene
   * The code is in the file ![WS_Stock_Analysis_And_Report_Functions.vbs](https://github.com/V-MalM/VBA-challenge/blob/main/WS_Stock_Analysis_And_Report_Functions.vbs) which can be located in files section.
   * Add the code to excel workbook by creating a module or by selecting 'Thisworkbook'.
   * Save and you will able to run the macro "Stock_Report_Main()".
-     * I tested the macro on ![alphabetical_testing.xlsm](https://github.com/V-MalM/VBA-challenge/blob/main/alphabetical_testing.xlsm).
+     * I tested the macro on "alphabetical_testing.xlsm".
      * It took less than 1 minute to execute and show the results.
 
  * I have also tested the same macro on the "Multiple_year_stock_data.xlsm", and it executed in 8 mins. 
